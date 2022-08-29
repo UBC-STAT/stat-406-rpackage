@@ -1,0 +1,21 @@
+url: https://ubc-stat.github.io/stat-406-rpackage/
+template:
+  bootstrap: 5
+
+bslib:
+    font_scale: 1.0
+    base_font:
+      google: "Jost"
+    code_font:
+      google: "Overpass Mono"
+    heading_font:
+      google: "Cormorant Garamond"
+    bg: "#fcfbf9"         # lighten springwood background
+    fg: "#2c365e"         # contrast ratio: 15.76 for text
+    primary: "#2c365e"    # dark blue active text
+    secondary: "#e98a15"  # blue active pill background
+    link-color: "#e98a15" # brighter link color, contrast 4.52
+    info: "#0a8754"       # version badge bg
+    headings-color: "#336688"
+    # navbar
+    navbar-bg: "#2c365e"  # match to site bg

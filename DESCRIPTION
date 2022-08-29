@@ -72,3 +72,4 @@ Imports:
     cli
 Depends: 
     R (>= 2.10)
+URL: https://ubc-stat.github.io/stat-406-rpackage/
