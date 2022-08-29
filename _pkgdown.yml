@@ -1,8 +1,7 @@
 url: https://ubc-stat.github.io/stat-406-rpackage/
 template:
   bootstrap: 5
-
-bslib:
+  bslib:
     font_scale: 1.0
     base_font:
       google: "Jost"
