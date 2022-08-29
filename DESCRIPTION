@@ -7,7 +7,7 @@ Authors@R: c(
 Description: This package is a one-stop installation for all R packages and
   data used in UBC's Stat 406 course.
 License: MIT + file LICENSE
-Imports:
+Suggests:
     adabag,
     bookdown,
     bslib,
@@ -36,7 +36,7 @@ Imports:
     leaps,
     lubridate,
     MASS,
-    maniTools
+    maniTools,
     maptree,
     mclust,
     mgcv,
@@ -54,16 +54,21 @@ Imports:
     splines,
     testthat,
     tidyverse,
+    tinytex,
     tree,
     xaringan,
     xaringanExtra,
     xaringanthemer
 Remotes:
-    cran/ElemStatLearn
-    dajmcdon/maniTools
-    cmu-delphi/epidatr
+    cran/ElemStatLearn,
+    dajmcdon/maniTools,
+    cmu-delphi/epidatr,
     ricardo-bion/ggradar
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    cli
+Depends: 
+    R (>= 2.10)
