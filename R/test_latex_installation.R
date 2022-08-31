@@ -17,8 +17,8 @@ test_latex_installation <- function() {
 
   tryCatch({
     cli::cli_process_start("Attempting to compile a LaTeX document.")
-    # tinytex::pdflatex(tmp)
-    stop("uh oh")
+    tinytex::pdflatex(tmp)
+    # stop("uh oh")
     cli::cli_process_done()
     cli::cli_alert_success("LaTeX is available. You're good to go.")},
     error = function(err) {
