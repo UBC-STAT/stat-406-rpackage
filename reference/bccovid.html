@@ -12,7 +12,7 @@ Columbia for the period from 1 August 2021 until 20 August 2022."><!-- mathjax -
     
     <a class="navbar-brand me-2" href="../index.html">Stat406</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@ Columbia for the period from 1 August 2021 until 20 August 2022.</p>
 
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
-    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 1755 rows and 6 columns.</p>
+    <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 912 rows and 2 columns.</p>
 <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 1655 rows and 6 columns.</p>
 <p>An object of class <code>tbl_df</code> (inherits from <code>tbl</code>, <code>data.frame</code>) with 100 rows and 6 columns.</p>
 <p>An object of class <code>data.frame</code> with 6 rows and 2 columns.</p>
@@ -68,7 +68,9 @@ via the <code>{CanCovidData}</code> package.</p>
     </div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
-    <p>The full data (<code>bccovid</code>), has been
+    <p>The full data (<code>bccovid</code>), contains the case count for BC.</p>
+<p>The other data has been processed from this raw file. First, it is separated
+out by Health Authority. Then it was
 "smoothed" by applying a 7 day trailing sum. By this we mean that,</p>
 <p></p><div class="sourceCode r"><pre><code><span><span class="va">cases_today</span>  <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html" class="external-link">sum</a></span><span class="op">(</span><span class="va">cases_7days_ago</span><span class="op">:</span><span class="va">cases_today</span><span class="op">)</span></span></code></pre><p></p></div>
 <p>The result is in the <code>cases+0</code> column. The other columns are "shifts" of this
