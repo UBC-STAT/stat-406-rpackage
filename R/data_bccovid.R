@@ -5,7 +5,10 @@
 #'
 #'
 #' @details
-#' The full data (`bccovid`), has been
+#' The full data (`bccovid`), contains the case count for BC.
+#'
+#' The other data has been processed from this raw file. First, it is separated
+#' out by Health Authority. Then it was
 #' "smoothed" by applying a 7 day trailing sum. By this we mean that,
 #'
 #' ```r

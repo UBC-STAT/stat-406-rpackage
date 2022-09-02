@@ -19,8 +19,11 @@ apply_shifts <- function(x, dt) {
 }
 
 dat <- get_british_columbia_case_data()
+bccovid <- dat %>%
+  count(date = `Reported Date`, name = "cases")
+
 dat <- dat %>%
-  mutate(HA = `Health Authority`) %>%
+  rename(HA = `Health Authority`) %>%
   filter(HA != "Out of Canada") %>%
   count(date = `Reported Date`, HA, name="cases") %>%
   filter(date >= as.Date("2021-08-01"))
@@ -39,7 +42,6 @@ bccovid_train <- dat %>%
   filter(date < ymd("2022-08-01") - 14)
 bccovid_test <- dat %>%
   filter(date >= ymd("2022-08-01") - 14)
-bccovid <- dat
 
 usethis::use_data(bccovid_train, overwrite = TRUE)
 usethis::use_data(bccovid_test, overwrite = TRUE)
