@@ -1,12 +1,17 @@
-Package: Stat406
 Type: Package
+Package: Stat406
 Title: Loads everything you need for Stat 406
-Version: 0.1.0
-Authors@R: c(
-    person("Daniel", "McDonald", , "daniel@stat.ubc.ca", role = c("aut","cre")))
-Description: This package is a one-stop installation for all R packages and
-  data used in UBC's Stat 406 course.
+Version: 0.2.0
+Authors@R: 
+    person("Daniel", "McDonald", , "daniel@stat.ubc.ca", role = c("aut", "cre"))
+Description: This package is a one-stop installation for all R packages
+    and data used in UBC's Stat 406 course.
 License: MIT + file LICENSE
+URL: https://ubc-stat.github.io/stat-406-rpackage/
+Depends: 
+    R (>= 4.0)
+Imports: 
+    cli
 Suggests:
     adabag,
     bookdown,
@@ -35,14 +40,15 @@ Suggests:
     lars,
     leaps,
     lubridate,
-    MASS,
     maniTools,
     maptree,
+    MASS,
     mclust,
     mgcv,
     mvtnorm,
     neuralnet,
     nnet,
+    palmerpenguins,
     randomForest,
     rmarkdown,
     robustbase,
@@ -60,16 +66,11 @@ Suggests:
     xaringanExtra,
     xaringanthemer
 Remotes:
+    cmu-delphi/epidatr,
     cran/ElemStatLearn,
     dajmcdon/maniTools,
-    cmu-delphi/epidatr,
     ricardo-bion/ggradar
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
 Encoding: UTF-8
 LazyData: true
-Imports: 
-    cli
-Depends: 
-    R (>= 2.10)
-URL: https://ubc-stat.github.io/stat-406-rpackage/
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1

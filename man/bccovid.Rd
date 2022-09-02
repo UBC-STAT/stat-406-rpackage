@@ -8,7 +8,7 @@
 \alias{bcpop}
 \title{COVID 19 Cases in BC for the last year}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1755 rows and 6 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 912 rows and 2 columns.
 
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1655 rows and 6 columns.
 
@@ -34,7 +34,10 @@ This data is the computed from number of reported COVID-19 cases in British
 Columbia for the period from 1 August 2021 until 20 August 2022.
 }
 \details{
-The full data (\code{bccovid}), has been
+The full data (\code{bccovid}), contains the case count for BC.
+
+The other data has been processed from this raw file. First, it is separated
+out by Health Authority. Then it was
 "smoothed" by applying a 7 day trailing sum. By this we mean that,
 
 \if{html}{\out{<div class="sourceCode r">}}\preformatted{cases_today  = sum(cases_7days_ago:cases_today)
