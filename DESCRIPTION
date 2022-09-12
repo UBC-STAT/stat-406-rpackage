@@ -1,7 +1,7 @@
 Type: Package
 Package: Stat406
 Title: Loads everything you need for Stat 406
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: 
     person("Daniel", "McDonald", , "daniel@stat.ubc.ca", role = c("aut", "cre"))
 Description: This package is a one-stop installation for all R packages

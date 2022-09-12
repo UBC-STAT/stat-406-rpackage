@@ -1,7 +1,7 @@
 
 #' Wiggly function
 #'
-#' @param x Real numbers. Function is most useful for x in [0, 8]
+#' @param x Real numbers. Function is most useful for x in `[0, 8]`
 #'
 #' @return Real numbers \deqn{\sin(x) + 1 / \sqrt(|x|) + 3}
 #' @export

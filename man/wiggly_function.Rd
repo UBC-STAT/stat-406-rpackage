@@ -7,7 +7,7 @@
 wiggly_function(x)
 }
 \arguments{
-\item{x}{Real numbers. Function is most useful for x in \link{0, 8}}
+\item{x}{Real numbers. Function is most useful for x in \verb{[0, 8]}}
 }
 \value{
 Real numbers \deqn{\sin(x) + 1 / \sqrt(|x|) + 3}
