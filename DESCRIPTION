@@ -11,8 +11,7 @@ URL: https://ubc-stat.github.io/stat-406-rpackage/
 Depends: 
     R (>= 4.0)
 Imports: 
-    cli
-Suggests:
+    cli,
     adabag,
     bookdown,
     bslib,
