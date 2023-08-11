@@ -62,6 +62,7 @@ The variables are:\tabular{ll}{
    Divorced \tab Fraction of adults who are divorced. \cr
    Married \tab Ditto. \cr
    Longitude \tab Geographic coordinate for the center of the community \cr
+   Latitude \tab Ditto \cr
    ID \tab A numerical code, identifying the community. \cr
    Name \tab the name of principal city or town. \cr
    State \tab the state of the principal city or town of the community. \cr
