@@ -12,5 +12,5 @@ You can install the development version of Stat406 from [GitHub](https://github.
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("UBC-STAT/stat-406-rpackage")
+remotes::install_github("UBC-STAT/stat-406-rpackage", dependencies = TRUE)
 ```

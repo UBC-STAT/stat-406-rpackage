@@ -13,12 +13,14 @@ URL:
 BugReports: https://github.com/UBC-STAT/stat-406-rpackage/issues/new
 Depends: 
     R (>= 4.2)
-Imports: 
+Imports:
+    cli,
+    tinytex
+Suggests: 
     adabag,
     bookdown,
     bslib,
     class,
-    cli,
     cluster,
     countrycode,
     cowplot,
@@ -61,7 +63,6 @@ Imports:
     splines,
     testthat,
     tidyverse,
-    tinytex,
     tree,
     usethis
 Remotes:
