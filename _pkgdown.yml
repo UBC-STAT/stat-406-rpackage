@@ -1,21 +1,15 @@
 url: https://ubc-stat.github.io/stat-406-rpackage/
 template:
   bootstrap: 5
+  bootswatch: cosmo
   bslib:
     font_scale: 1.0
-    base_font:
-      google: "Cormorant Garamond"
-    code_font:
-      google: "Overpass Mono"
-    heading_font:
-      google: "Cormorant Garamond"
     bg: "#fcfbf9"
     fg: "#2c365e"
     primary: "#2c365e"
     secondary: "#e98a15"
     link-color: "#e98a15"
     info: "#0a8754"
-    headings-color: "#336688"
 
 navbar:
   bg: primary
