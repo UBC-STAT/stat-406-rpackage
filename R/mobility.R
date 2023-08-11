@@ -45,7 +45,8 @@
 #' |Single motherhood| Number of single female households with children divided by the total number of households with children.|
 #' |Divorced| Fraction of adults who are divorced.
 #' |Married| Ditto.|
-#' |Longitude| Geographic coordinate for the center of the community| |Latitude| Ditto|
+#' |Longitude| Geographic coordinate for the center of the community|
+#' |Latitude| Ditto|
 #' |ID| A numerical code, identifying the community.|
 #' |Name| the name of principal city or town.|
 #' |State| the state of the principal city or town of the community.|
