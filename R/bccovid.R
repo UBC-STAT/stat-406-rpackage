@@ -1,7 +1,8 @@
 #' COVID 19 Cases in BC for the last year
 #'
-#' This data is the computed from number of reported COVID-19 cases in British
-#' Columbia for the period from 1 August 2021 until 20 August 2022.
+#' This data is the number of reported COVID-19 cases in British
+#' Columbia between January 2020 and April 15, 2023. The values are.up-to-date
+#' as of August 2023.
 #'
 #'
 #' @details
@@ -24,14 +25,16 @@
 #' and UBC is located in "Vancouver Coastal" along with Kitsilano and Downtown.
 #' SFU, Burnaby, Richmond, and Surrey are all in "Fraser".
 #'
-#' @source This data comes from the British Columbia CDC [linelist](http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv)
-#' via the `{CanCovidData}` package.
+#' @source This data comes from the British Columbia CDC
+#' [linelist](http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv)
+#' via the [`{CanCovidData}`](https://mountainmath.github.io/CanCovidData/) package.
 #'
+#' @keywords datasets
 "bccovid"
 
 #' @details
 #' `bccovid_train` is the Training set for use on the homework.
-#' It contains only the data prior to 1 August 2022.
+#' It contains only the data prior to 1 August 2021.
 #'
 #' @rdname bccovid
 "bccovid_train"
@@ -40,7 +43,7 @@
 #' @details
 #' `bccovid_test` is the Test set for use on the homework.
 #' It contains only the most recent `r length(unique(bccovid_test$date))` rows
-#' of the data (since 1 August 2022).
+#' of the data (between 1 August 2021 and 1 December 2021).
 #'
 #' @rdname bccovid
 "bccovid_test"

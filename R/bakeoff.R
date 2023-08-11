@@ -27,6 +27,7 @@
 #' }
 #' @name bakeoff
 #' @source This is a combination of two datasets in Allison Hill's [bakeoff](https://bakeoff.netlify.app) package.
+#' @keywords datasets
 NULL
 
 #' @details

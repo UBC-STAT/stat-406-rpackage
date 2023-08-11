@@ -2,6 +2,7 @@
 # Stat406
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/UBC-STAT/stat-406-rpackage/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/UBC-STAT/stat-406-rpackage/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of Stat406 is to allow students enrolled in the course to install
@@ -15,5 +16,5 @@ You can install the development version of Stat406 from [GitHub](https://github.
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("UBC-STAT/stat-406-rpackage")
+remotes::install_github("UBC-STAT/stat-406-rpackage", dependencies = TRUE)
 ```

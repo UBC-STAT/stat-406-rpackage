@@ -19,3 +19,17 @@ template:
 
 navbar:
   bg: primary
+
+
+reference:
+  - title: Course setup functions
+    desc: Functions to ensure that your system is ready to go
+  - contents:
+    - test_latex_installation
+  - title: Datasets
+    desc: Some data used in homework assignments, labs, and lectures
+  - contents:
+    - has_keyword("datasets")
+  - title: Other functions
+  - contents:
+    - wiggly_function

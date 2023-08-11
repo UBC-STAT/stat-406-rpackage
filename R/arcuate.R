@@ -13,5 +13,5 @@
 #' 1. The `position` along the region, from one end to the other.
 #' 2. The `fa` or ["fractional anisotropy"](https://en.wikipedia.org/wiki/Fractional_anisotropy)
 #'   a measurement of the amount of diffusivity.
-#'
+#' @keywords datasets
 "arcuate"
