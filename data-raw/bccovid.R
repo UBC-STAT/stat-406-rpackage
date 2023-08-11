@@ -2,10 +2,12 @@
 library(CanCovidData)
 library(tidyverse)
 library(lubridate)
+
 shift <- function(x, n) {
   if (n < 0) dplyr::lag(x, -n)
   else dplyr::lead(x, n)
 }
+
 apply_shifts <- function(x, dt) {
   stopifnot(is.data.frame(x))
   stopifnot(all(c("date", "cases") %in% names(x)))
@@ -27,6 +29,7 @@ dat <- dat %>%
   filter(HA != "Out of Canada") %>%
   count(date = `Reported Date`, HA, name="cases") %>%
   filter(date >= as.Date("2021-08-01"))
+
 dat <- dat %>%
   expand(date, HA) %>%
   left_join(dat) %>%

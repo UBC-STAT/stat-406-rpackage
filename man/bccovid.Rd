@@ -17,8 +17,9 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 An object of class \code{data.frame} with 6 rows and 2 columns.
 }
 \source{
-This data comes from the British Columbia CDC \href{http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv}{linelist}
-via the \code{{CanCovidData}} package.
+This data comes from the British Columbia CDC
+\href{http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv}{linelist}
+via the \href{https://mountainmath.github.io/CanCovidData/}{\code{{CanCovidData}}} package.
 }
 \usage{
 bccovid

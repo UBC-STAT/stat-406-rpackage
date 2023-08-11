@@ -1,26 +1,28 @@
 Type: Package
 Package: Stat406
 Title: Loads everything you need for Stat 406
-Version: 0.2.1
+Version: 2.3.0
 Authors@R: 
-    person("Daniel", "McDonald", , "daniel@stat.ubc.ca", role = c("aut", "cre"))
+    person("Daniel", "McDonald", "J.", "daniel@stat.ubc.ca", role = c("aut", "cre"))
 Description: This package is a one-stop installation for all R packages
     and data used in UBC's Stat 406 course.
 License: MIT + file LICENSE
-URL: https://ubc-stat.github.io/stat-406-rpackage/
+URL: 
+    https://ubc-stat.github.io/stat-406-rpackage/,
+    http://github.com/ubc-stat/stat-406-rpackage/
+BugReports: https://github.com/UBC-STAT/stat-406-rpackage/issues/new
 Depends: 
-    R (>= 4.0)
+    R (>= 4.2)
 Imports: 
-    cli,
     adabag,
     bookdown,
     bslib,
     class,
+    cli,
     cluster,
     countrycode,
     cowplot,
     desc,
-    downlit,
     ElemStatLearn,
     epidatr,
     flexclust,
@@ -53,7 +55,6 @@ Imports:
     rmarkdown,
     robustbase,
     rpart,
-    rworldmap,
     scales,
     SemiPar,
     sessioninfo,
@@ -62,10 +63,7 @@ Imports:
     tidyverse,
     tinytex,
     tree,
-    usethis,
-    xaringan,
-    xaringanExtra,
-    xaringanthemer
+    usethis
 Remotes:
     cmu-delphi/epidatr,
     cran/ElemStatLearn,
@@ -73,5 +71,6 @@ Remotes:
     ricardo-bion/ggradar
 Encoding: UTF-8
 LazyData: true
+Config/rcmdcheck/ignore-inconsequential-notes: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3

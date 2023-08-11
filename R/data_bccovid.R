@@ -24,9 +24,11 @@
 #' and UBC is located in "Vancouver Coastal" along with Kitsilano and Downtown.
 #' SFU, Burnaby, Richmond, and Surrey are all in "Fraser".
 #'
-#' @source This data comes from the British Columbia CDC [linelist](http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv)
-#' via the `{CanCovidData}` package.
+#' @source This data comes from the British Columbia CDC
+#' [linelist](http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv)
+#' via the [`{CanCovidData}`](https://mountainmath.github.io/CanCovidData/) package.
 #'
+#' @keywords datasets
 "bccovid"
 
 #' @details
