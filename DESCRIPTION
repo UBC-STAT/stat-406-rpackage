@@ -64,7 +64,8 @@ Suggests:
     testthat,
     tidyverse,
     tree,
-    usethis
+    usethis,
+    zoo
 Remotes:
     cmu-delphi/epidatr,
     cran/ElemStatLearn,

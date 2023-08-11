@@ -8,11 +8,11 @@
 \alias{bcpop}
 \title{COVID 19 Cases in BC for the last year}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 912 rows and 2 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1143 rows and 2 columns.
 
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1655 rows and 6 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 100 rows and 6 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 685 rows and 6 columns.
 
 An object of class \code{data.frame} with 6 rows and 2 columns.
 }
@@ -31,8 +31,9 @@ bccovid_test
 bcpop
 }
 \description{
-This data is the computed from number of reported COVID-19 cases in British
-Columbia for the period from 1 August 2021 until 20 August 2022.
+This data is the number of reported COVID-19 cases in British
+Columbia between January 2020 and April 15, 2023. The values are.up-to-date
+as of August 2023.
 }
 \details{
 The full data (\code{bccovid}), contains the case count for BC.
@@ -54,11 +55,11 @@ and UBC is located in "Vancouver Coastal" along with Kitsilano and Downtown.
 SFU, Burnaby, Richmond, and Surrey are all in "Fraser".
 
 \code{bccovid_train} is the Training set for use on the homework.
-It contains only the data prior to 1 August 2022.
+It contains only the data prior to 1 August 2021.
 
 \code{bccovid_test} is the Test set for use on the homework.
-It contains only the most recent 20 rows
-of the data (since 1 August 2022).
+It contains only the most recent 137 rows
+of the data (between 1 August 2021 and 1 December 2021).
 
 \code{bcpop} gives the number of people living in each BC Health Authority as of
 the 2020 Census
