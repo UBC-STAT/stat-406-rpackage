@@ -47,6 +47,7 @@ Suggests:
     maniTools,
     maptree,
     MASS,
+    Matrix,
     mclust,
     mgcv,
     mvtnorm,
