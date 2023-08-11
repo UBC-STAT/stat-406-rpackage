@@ -14,7 +14,7 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 685 rows and 6 columns.
 
-An object of class \code{data.frame} with 6 rows and 2 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 6 rows and 2 columns.
 }
 \source{
 This data comes from the British Columbia CDC
@@ -58,7 +58,7 @@ SFU, Burnaby, Richmond, and Surrey are all in "Fraser".
 It contains only the data prior to 1 August 2021.
 
 \code{bccovid_test} is the Test set for use on the homework.
-It contains only the most recent 137 rows
+It contains 137 rows
 of the data (between 1 August 2021 and 1 December 2021).
 
 \code{bcpop} gives the number of people living in each BC Health Authority as of

@@ -42,7 +42,7 @@
 
 #' @details
 #' `bccovid_test` is the Test set for use on the homework.
-#' It contains only the most recent `r length(unique(bccovid_test$date))` rows
+#' It contains `r length(unique(bccovid_test$date))` rows
 #' of the data (between 1 August 2021 and 1 December 2021).
 #'
 #' @rdname bccovid
