@@ -28,4 +28,8 @@ This data contains two measurements:
 a measurement of the amount of diffusivity.
 }
 }
+\examples{
+arcuate
+
+}
 \keyword{datasets}

@@ -14,4 +14,7 @@
 #' 2. The `fa` or ["fractional anisotropy"](https://en.wikipedia.org/wiki/Fractional_anisotropy)
 #'   a measurement of the amount of diffusivity.
 #' @keywords datasets
+#' @examples
+#' arcuate
+#'
 "arcuate"

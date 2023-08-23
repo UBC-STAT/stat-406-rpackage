@@ -38,4 +38,8 @@ The flavour categories are Body, Sweetness, Smoky, Medicinal, Tobacco, Honey, Sp
 The data also contains meta information giving each distillery's postcode,
 Longitude, and Latitude.
 }
+\examples{
+whisky
+
+}
 \keyword{datasets}

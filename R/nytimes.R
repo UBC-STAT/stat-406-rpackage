@@ -41,19 +41,24 @@
 #' working on the data set at <http://groups.google.com/group/nytnlp> and
 #' encourages feedback and discussion about the corpus.
 #'
-#' `nyt_raw` contains the raw bag-of-words representation.
-#'
+#' @name nytimes
 #' @keywords datasets
 #'
 #' @source Sandhaus, Evan, 2008, "The New York Times Annotated Corpus",
 #'   <https://hdl.handle.net/11272.1/AB2/GZC6PL>, Abacus Data Network, V1.
 #' @source Shalizi, Cosma, 2023, "Advanced Data Analysis from an Elementary
 #'   Point of View", <https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/>.
+NULL
+
+#' @details
+#' `nyt_raw` contains the raw bag-of-words representation.
+#'
+#' @rdname nytimes
 #' @examples
 #' nyt_raw
 "nyt_raw"
 
-#' @rdname nyt_raw
+#' @rdname nytimes
 #'
 #' @details
 #' `nyt_tfidf` hass the same format as `nyt_raw` but after applying TF-IDF

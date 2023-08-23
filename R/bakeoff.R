@@ -33,6 +33,9 @@ NULL
 #' @details
 #' `bakeoff_train` is the training set for use on the homework.
 #' @rdname bakeoff
+#' @examples
+#' bakeoff_train
+#'
 "bakeoff_train"
 
 
@@ -42,4 +45,7 @@ NULL
 #' and omits the `winners` column.
 #'
 #' @rdname bakeoff
+#' @examples
+#' bakeoff_test
+#'
 "bakeoff_test"

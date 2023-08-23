@@ -50,4 +50,10 @@ this data some to make it suitable for a "bakeoff".
 It contains a held out set of 137 bakers
 and omits the \code{winners} column.
 }
+\examples{
+bakeoff_train
+
+bakeoff_test
+
+}
 \keyword{datasets}

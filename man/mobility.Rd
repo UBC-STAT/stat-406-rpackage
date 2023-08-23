@@ -68,4 +68,8 @@ The variables are:\tabular{ll}{
    State \tab the state of the principal city or town of the community. \cr
 }
 }
+\examples{
+mobility
+
+}
 \keyword{datasets}

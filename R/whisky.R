@@ -27,5 +27,7 @@
 #' The data also contains meta information giving each distillery's postcode,
 #' Longitude, and Latitude.
 #' @keywords datasets
+#' @examples
+#' whisky
 #'
 "whisky"
