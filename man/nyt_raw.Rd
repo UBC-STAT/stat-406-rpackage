@@ -70,4 +70,8 @@ encourages feedback and discussion about the corpus.
 \code{nyt_tfidf} hass the same format as \code{nyt_raw} but after applying TF-IDF
 weighting.
 }
+\examples{
+nyt_raw
+nyt_tfidf
+}
 \keyword{datasets}

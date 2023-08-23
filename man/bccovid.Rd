@@ -64,4 +64,10 @@ of the data (between 1 August 2021 and 1 December 2021).
 \code{bcpop} gives the number of people living in each BC Health Authority as of
 the 2020 Census
 }
+\examples{
+bccovid
+bccovid_train
+bccovid_test
+bcpop
+}
 \keyword{datasets}

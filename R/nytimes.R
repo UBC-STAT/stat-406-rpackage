@@ -49,7 +49,8 @@
 #'   <https://hdl.handle.net/11272.1/AB2/GZC6PL>, Abacus Data Network, V1.
 #' @source Shalizi, Cosma, 2023, "Advanced Data Analysis from an Elementary
 #'   Point of View", <https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/>.
-#' @example nyt_raw
+#' @examples
+#' nyt_raw
 "nyt_raw"
 
 #' @rdname nyt_raw
@@ -59,5 +60,6 @@
 #' weighting.
 #'
 #' @keywords datasets
-#' @example nyt_tfidf
+#' @examples
+#' nyt_tfidf
 "nyt_tfidf"
