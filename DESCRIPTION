@@ -3,7 +3,7 @@ Package: Stat406
 Title: Loads everything you need for Stat 406
 Version: 2.3.0
 Authors@R: 
-    person("Daniel", "McDonald", "J.", "daniel@stat.ubc.ca", role = c("aut", "cre"))
+    person("Daniel J.", "McDonald", , "daniel@stat.ubc.ca", role = c("aut", "cre"))
 Description: This package is a one-stop installation for all R packages
     and data used in UBC's Stat 406 course.
 License: MIT + file LICENSE
@@ -20,7 +20,7 @@ Suggests:
     adabag,
     bookdown,
     bslib,
-    broom
+    broom,
     class,
     cluster,
     countrycode,
@@ -51,7 +51,7 @@ Suggests:
     neuralnet,
     nnet,
     palmerpenguins,
-    ranger,
+    randomForest,
     RColorBrewer,
     rmarkdown,
     robustbase,

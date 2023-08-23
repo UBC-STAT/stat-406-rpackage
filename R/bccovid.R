@@ -30,6 +30,7 @@
 #' via the [`{CanCovidData}`](https://mountainmath.github.io/CanCovidData/) package.
 #'
 #' @keywords datasets
+#' @example bccovid
 "bccovid"
 
 #' @details
@@ -37,6 +38,7 @@
 #' It contains only the data prior to 1 August 2021.
 #'
 #' @rdname bccovid
+#' @example bccovid_train
 "bccovid_train"
 
 
@@ -46,6 +48,7 @@
 #' of the data (between 1 August 2021 and 1 December 2021).
 #'
 #' @rdname bccovid
+#' @example bccovid_test
 "bccovid_test"
 
 #' @details
@@ -53,4 +56,5 @@
 #' the 2020 Census
 #'
 #' @rdname bccovid
+#' @example bcpop
 "bcpop"
