@@ -51,7 +51,7 @@ Suggests:
     neuralnet,
     nnet,
     palmerpenguins,
-    randomForest,
+    ranger,
     RColorBrewer,
     rmarkdown,
     robustbase,
