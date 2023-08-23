@@ -16,6 +16,9 @@
     <loc>https://ubc-stat.github.io/stat-406-rpackage/index.html</loc>
   </url>
   <url>
+    <loc>https://ubc-stat.github.io/stat-406-rpackage/reference/Stat406-package.html</loc>
+  </url>
+  <url>
     <loc>https://ubc-stat.github.io/stat-406-rpackage/reference/arcuate.html</loc>
   </url>
   <url>
@@ -25,10 +28,16 @@
     <loc>https://ubc-stat.github.io/stat-406-rpackage/reference/bccovid.html</loc>
   </url>
   <url>
+    <loc>https://ubc-stat.github.io/stat-406-rpackage/reference/goodboost.html</loc>
+  </url>
+  <url>
     <loc>https://ubc-stat.github.io/stat-406-rpackage/reference/index.html</loc>
   </url>
   <url>
     <loc>https://ubc-stat.github.io/stat-406-rpackage/reference/mobility.html</loc>
+  </url>
+  <url>
+    <loc>https://ubc-stat.github.io/stat-406-rpackage/reference/nyt_raw.html</loc>
   </url>
   <url>
     <loc>https://ubc-stat.github.io/stat-406-rpackage/reference/test_latex_installation.html</loc>
