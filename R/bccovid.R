@@ -29,7 +29,6 @@
 #' [linelist](http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv)
 #' via the [`{CanCovidData}`](https://mountainmath.github.io/CanCovidData/) package.
 #'
-#' @keywords datasets
 #' @examples
 #' bccovid
 "bccovid"
