@@ -56,7 +56,6 @@
 #' The Geography of Intergenerational Mobility in the United States" (Raj Chetty,
 #' Nathaniel Hendren, Patrick Kline, Emmanuel Saez, QJE 2014), and its replication
 #' files. Both the paper and the data sets are available from <https://opportunityinsights.org.>
-#' @keywords datasets
 #' @examples
 #' mobility
 #'

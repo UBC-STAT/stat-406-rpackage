@@ -13,7 +13,6 @@
 #'
 #' `goodboost` is a case where stump-based boosting works well.
 #'
-#' @keywords datasets
 #' @examples
 #' goodboost
 #'
