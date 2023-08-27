@@ -12,6 +12,10 @@ wiggly
 }
 \description{
 A small data set created using \code{\link[=wiggly_function]{wiggly_function()}}.
-Used on Homework 4.
+}
+\examples{
+wiggly
+plot(wiggly, col = 2, pch = 16)
+curve(wiggly_function(x), 0, 2 * pi, add = TRUE, col = 4)
 }
 \keyword{datasets}
