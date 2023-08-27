@@ -21,5 +21,5 @@ wiggly_function <- function(x) {
 #' @examples
 #' wiggly
 #' plot(wiggly, col = 2, pch = 16)
-#' curve(wiggly_function(x), 0, 2 * pi, add = TRUE, col = 4)
+#' curve(wiggly_function(x), 0, 2 * pi, add = TRUE, col = 4, lwd = 2)
 "wiggly"
