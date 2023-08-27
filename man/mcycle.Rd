@@ -7,9 +7,9 @@
 \alias{mcycle_test}
 \title{Data from a Simulated Motorcycle Accident}
 \format{
-An object of class \code{data.frame} with 264 rows and 2 columns.
+An object of class \code{data.frame} with 89 rows and 2 columns.
 
-An object of class \code{data.frame} with 131 rows and 2 columns.
+An object of class \code{data.frame} with 44 rows and 2 columns.
 }
 \source{
 Silverman, B. W. (1985) Some aspects of the spline smoothing approach to

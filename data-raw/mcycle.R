@@ -1,7 +1,7 @@
 ## code to prepare `mcycle` dataset goes here
 m <- MASS::mcycle
 n <- nrow(m)
-sets <- c(0, rep(1:3, times = n - 2), 0)
+sets <- c(0, rep(1:3, length = n - 2), 0)
 mcycle_test <- m[sets == 2, ]
 mcycle_train <- m[sets != 2, ]
 
