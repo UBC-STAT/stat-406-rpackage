@@ -6,7 +6,14 @@
 #' If it fails, you'll see some instructions to make sure that LaTeX is
 #' installed on your system.
 #'
+#'
+#'
 #' @export
+#' @examples
+#' \dontrun{
+#' test_latex_installation()
+#' }
+#'
 test_latex_installation <- function() {
   tmp <- paste0(tempfile(), ".tex")
   writeLines(
@@ -28,7 +35,7 @@ test_latex_installation <- function() {
       )
       cli::cli_h1("Next steps.")
       cli::cli_alert_info("Try running this function again.")
-      cli::cli_alert_info("If you still see this message, run {.fn tinytex::install_tinytex}.")
+      cli::cli_alert_info("If you still see this message, run {.fn tinytex::install_tinytex()}.")
     })
 }
 

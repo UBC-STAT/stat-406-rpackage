@@ -11,3 +11,9 @@ This function tries to compile a small pdf document using LaTeX.
 If it fails, you'll see some instructions to make sure that LaTeX is
 installed on your system.
 }
+\examples{
+\dontrun{
+test_latex_installation()
+}
+
+}
