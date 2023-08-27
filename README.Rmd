@@ -56,7 +56,9 @@ cli::cli_h1("Next steps.")
 cli::cli_alert_info("Try running this function again.")
 cli::cli_alert_info("If you still see this message, run {.fn tinytex::install_tinytex}.")
 ```
-Ideally, LaTeX automatically installed it self. Try the function again. You
-may need to restart `R`. If it still doesn't work, follow the instructions.
+Ideally, LaTeX automatically installed itself. Try the function again. You
+may need to restart `R`. You may need to restart your machine. 
+If it still doesn't work, follow the instructions.
+
 If you still get errors, then contact the teaching team on Slack or in 
 Office Hours.

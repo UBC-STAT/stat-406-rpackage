@@ -9,10 +9,6 @@
 #'
 #'
 #' @export
-#' @examples
-#' \dontrun{
-#' test_latex_installation()
-#' }
 #'
 test_latex_installation <- function() {
   tmp <- paste0(tempfile(), ".tex")

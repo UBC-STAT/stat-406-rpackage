@@ -31,6 +31,7 @@
 #'
 #' @examples
 #' bccovid
+#'
 "bccovid"
 
 #' @details
@@ -40,6 +41,7 @@
 #' @rdname bccovid
 #' @examples
 #' bccovid_train
+#'
 "bccovid_train"
 
 
@@ -51,6 +53,7 @@
 #' @rdname bccovid
 #' @examples
 #' bccovid_test
+#'
 "bccovid_test"
 
 #' @details
@@ -60,4 +63,5 @@
 #' @rdname bccovid
 #' @examples
 #' bcpop
+#'
 "bcpop"

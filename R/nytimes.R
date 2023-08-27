@@ -56,6 +56,7 @@ NULL
 #' @rdname nytimes
 #' @examples
 #' nyt_raw
+#'
 "nyt_raw"
 
 #' @rdname nytimes
@@ -67,4 +68,5 @@ NULL
 #' @keywords datasets
 #' @examples
 #' nyt_tfidf
+#'
 "nyt_tfidf"

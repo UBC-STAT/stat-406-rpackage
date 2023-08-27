@@ -47,7 +47,9 @@ If it fails, you’ll see:
     #> ℹ Try running this function again.
     #> ℹ If you still see this message, run `tinytex::install_tinytex()`.
 
-Ideally, LaTeX automatically installed it self. Try the function again.
-You may need to restart `R`. If it still doesn’t work, follow the
-instructions. If you still get errors, then contact the teaching team on
-Slack or in Office Hours.
+Ideally, LaTeX automatically installed itself. Try the function again.
+You may need to restart `R`. You may need to restart your machine. If it
+still doesn’t work, follow the instructions.
+
+If you still get errors, then contact the teaching team on Slack or in
+Office Hours.
