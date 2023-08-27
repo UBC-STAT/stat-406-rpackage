@@ -73,6 +73,25 @@
 <code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
 <span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"UBC-STAT/stat-406-rpackage"</span>, dependencies <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
 </div>
+<div class="section level2">
+<h2 id="start-up">Start up<a class="anchor" aria-label="anchor" href="#start-up"></a>
+</h2>
+<p>Once you have installed the package, you should run</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/test_latex_installation.html">test_latex_installation</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<p>This will attempt to compile a small LaTeX document (in preparation for homework and labs). If it works, you’ll see something like:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; ℹ Attempting to compile a LaTeX document.</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; ✔ Attempting to compile a LaTeX document. ... done</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; ✔ LaTeX is available. You're good to go.</span></span></code></pre></div>
+<p>If it fails, you’ll see:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; ✖ LaTeX does not appear to be installed. But, it may have installed automatically</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; ── Next steps. ─────────────────────────────────────────────────────────────────</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; ℹ Try running this function again.</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; ℹ If you still see this message, run `tinytex::install_tinytex()`.</span></span></code></pre></div>
+<p>Ideally, LaTeX automatically installed it self. Try the function again. You may need to restart <code>R</code>. If it still doesn’t work, follow the instructions. If you still get errors, then contact the teaching team on Slack or in Office Hours.</p>
+</div>
 </div>
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
