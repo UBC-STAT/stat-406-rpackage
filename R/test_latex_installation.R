@@ -15,6 +15,10 @@ test_latex_installation <- function() {
   writeLines(
     c(
       '\\documentclass{article}',
+      '\\usepackage{amsthm,thmtools}',
+      '\\usepackage{xcolor}',
+      '\\usepackage[framemethod=tikz]{mdframed}',
+      '\\usepackage{pgf}',
       '\\begin{document}', 'Hello world!', '\\end{document}'
     ), tmp)
 
