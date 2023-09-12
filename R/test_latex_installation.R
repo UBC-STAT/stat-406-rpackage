@@ -17,6 +17,7 @@ test_latex_installation <- function() {
       '\\documentclass{article}',
       '\\usepackage{amsthm,thmtools}',
       '\\usepackage{xcolor}',
+      '\\usepackage{tikz}',
       '\\usepackage[framemethod=tikz]{mdframed}',
       '\\usepackage{pgf}',
       '\\begin{document}', 'Hello world!', '\\end{document}'
