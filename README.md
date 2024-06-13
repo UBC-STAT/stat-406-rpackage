@@ -23,6 +23,14 @@ You can install the development version of Stat406 from
 remotes::install_github("UBC-STAT/stat-406-rpackage", dependencies = TRUE)
 ```
 
+## Usage
+
+After installation, the package will be available in R under the name `Stat406`. You can load it into R using the code
+
+```r
+library(Stat406)
+```
+
 ## Start up
 
 Once you have installed the package, you should run
