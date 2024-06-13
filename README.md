@@ -25,7 +25,7 @@ remotes::install_github("UBC-STAT/stat-406-rpackage", dependencies = TRUE)
 
 ## Usage
 
-After installation, the package will be available in R under the name `Stat406`. You can load it into R using the code
+After installation, the package will be available in R under the name `Stat406`. You can load it into R using:
 
 ```r
 library(Stat406)
